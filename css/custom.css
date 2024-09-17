@@ -18,6 +18,27 @@ body, p {
     font-family: "Lora", system-ui;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {    
     font-family: "Sacramento", cursive;
+}
+
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead {
+    background: url("../img/bg.webp");
+    background-position: center;
+    background-size: cover;
+}
+
+/********************/
+/******* COlORS ******/
+/********************/
+.btn-primary {
+    background: #ddbea9;
+    border: 2px solid #ccaf9c;
+}
+.btn-primary:hover {
+    background: #ccaf9c;
+    border: 2px solid #ddbea9;
 }
