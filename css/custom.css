@@ -1,13 +1,12 @@
 /***** 
 COLOR CHEAT SHEET 
-https://coolors.co/cb997e-eddcd2-fff1e6-ddbea9-a5a58d-b7b7a4
-cb997e - buff
-eddcd2 - champagne pink
-fff1e6 - linen
-ddbea9 - desert sand
-a5a58d - sage
-b7b7a4 - ash gray
-
+https://coolors.co/880d1e-dd2d4a-f26a8d-f49cbb-ffffff
+880d1e- dark red
+dd2d4a- light red
+f26a8d- bright pink
+f49cbb- light pink
+ffb7ce- lighter pink
+ffffff- white
 *****/
 
 
@@ -18,7 +17,7 @@ body, p {
     font-family: "Lora", system-ui;
 }
 
-h1, h2, h3, h4, h5, h6 {    
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {    
     font-family: "Sacramento", cursive;
 }
 
@@ -31,14 +30,79 @@ header.masthead {
     background-size: cover;
 }
 
+header.masthead h1 {
+    color: #dd2d4a;
+    font-size: 115px;
+    text-shadow: 1px 1px 1px #880d1e;
+}
+
+header.masthead p {
+    color: #f26a8d;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #880d1e
+}
+
 /********************/
 /******* COlORS ******/
 /********************/
 .btn-primary {
-    background: #ddbea9;
-    border: 2px solid #ccaf9c;
+    background: #dd2d4a;
+    border: 2px solid #880d1e;
 }
-.btn-primary:hover {
-    background: #ccaf9c;
-    border: 2px solid #ddbea9;
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #880d1e !important;
+    border: 2px solid #dd2d4a !important;
+}
+hr.divider {
+    background-color:#dd2d4a;
+    height: .4rem;
+}
+
+hr {   
+     color:#880d1e;  
+     border-top: 2px solid;  
+     opacity: 0.25;
+}
+
+.bg-primary {
+    background-color: #f26a8d !important;
+}
+
+.text-primary {
+    color: #f49cbb !important;
+}
+
+.text-white-50 {
+    color: rgb(255, 255, 255) !important;
+}
+
+.bg-dark {
+    background-color:#ffb7ce !important;
+}
+/********************/
+/******* NAV ******/
+/********************/
+#mainNav.navbar-shrink {
+    background-color: #dd2d4a;
+    font-family: "Lora", system-ui;
+}
+#mainNav.navbar-shrink .navbar-brand {
+    color: white
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link{
+    color: white
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav.navbar-shrink .navbar-brand:hover {
+	color: #ffb7ce !important;
+}
+
+/********************/
+/******* TOP 6 ******/
+/********************/
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #ffb7ce9e;
 }
