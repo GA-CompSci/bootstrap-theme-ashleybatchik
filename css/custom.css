@@ -9,10 +9,10 @@ ffb7ce- lighter pink
 ffffff- white
 *****/
 
-
 /********************/
 /******* FONTS ******/
 /********************/
+
 body, p {
     font-family: "Lora", system-ui;
 }
@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /********************/
 /******* HERO ******/
 /********************/
+
 header.masthead {
     background: url("../img/bg.webp");
     background-position: center;
@@ -45,6 +46,7 @@ header.masthead p {
 /********************/
 /******* COlORS ******/
 /********************/
+
 .btn-primary {
     background: #dd2d4a;
     border: 2px solid #880d1e;
@@ -54,6 +56,17 @@ header.masthead p {
     background: #880d1e !important;
     border: 2px solid #dd2d4a !important;
 }
+
+.btn-light, .btn-light:visited, .btn-light:focus  {
+    background: #f49cbb;
+    border: 2px solid #dd2d4a;
+}
+
+.btn-light:hover, .btn-light:active {
+    background: #dd2d4a !important;
+    border: 2px solid #f49cbb !important;
+}
+
 hr.divider {
     background-color:#dd2d4a;
     height: .4rem;
@@ -80,19 +93,28 @@ hr {
 .bg-dark {
     background-color:#ffb7ce !important;
 }
+
+.text-muted {
+    color: black !important;
+}
+
 /********************/
 /******* NAV ******/
 /********************/
+
 #mainNav.navbar-shrink {
     background-color: #dd2d4a;
     font-family: "Lora", system-ui;
 }
+
 #mainNav.navbar-shrink .navbar-brand {
     color: white
 }
+
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link{
     color: white
 }
+
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav.navbar-shrink .navbar-brand:hover {
